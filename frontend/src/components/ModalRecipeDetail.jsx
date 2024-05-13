@@ -182,15 +182,14 @@ function ModalRecipeDetails({ item, open, handleClose }) {
                         }`}</p>
                         <p className="p-1">{item.totalNutrients.FAMS.unit}</p>
                       </div>
-                      <div className="flex">
-                        <p className="p-1">{item.totalNutrients.FATRN.label}</p>
+                      {/* <div className="flex">
                         <p className="p-1">{`${
                           (item.totalNutrients.FATRN.quantity * 100).toFixed(
                             0
                           ) / 100
                         }`}</p>
                         <p className="p-1">{item.totalNutrients.FATRN.unit}</p>
-                      </div>
+                      </div> */}
                     </div>
                     <h2 className="text-orange-500 text-xl">
                       {item.totalNutrients.PROCNT.label}
